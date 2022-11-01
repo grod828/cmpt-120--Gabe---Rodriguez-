@@ -53,7 +53,7 @@ def main():
     while cash > 0:
         print_stock()
         vals = input(
-            "Enter product ID and quantity you wish to buy. Separate the values with a comma: ").split(",")
+            "Enter product ID and quantity you wish to buy. Separate the values with a semicolon: ").split(";")
         if vals[0] == "quit":
             break
 
